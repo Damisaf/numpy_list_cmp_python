@@ -35,7 +35,7 @@ if __name__ == '__main__':
     list_numeros_str = ['5', '2', '3', '', '7', 'NaN']
     list_numeros_int = [int(x) if x.isdigit() else 0 for x in list_numeros_str]
 
-    print(list_numeros_int)
+    print("sin numeros negativos: ", list_numeros_int)
 
     # ¿Ya terminaron el ejercicio? ¿Por qué no prueban
     # hacer negativo alguno de los números de la lista?
@@ -44,7 +44,7 @@ if __name__ == '__main__':
     list_numeros_str = ['-5', '2', '-3', '', '7', 'NaN']
     list_numeros_int = [int(x) if es_numerico(x) else 0 for x in list_numeros_str]
     
-    print(list_numeros_int)        
+    print("con numeros negativos: ", list_numeros_int)        
 
 
     print("terminamos")
